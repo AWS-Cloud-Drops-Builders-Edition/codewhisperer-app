@@ -10,6 +10,11 @@
       "StackName": "amplify-galeriaimagens-dev-210314",
       "StackId": "arn:aws:cloudformation:sa-east-1:872422036680:stack/amplify-galeriaimagens-dev-210314/3b75d8d0-6fa5-11ee-bcb9-061d484bd30a",
       "AmplifyAppId": "d1njifr65ldm11"
+    },
+    "categories": {
+      "auth": {
+        "galeriaimagens8c43c22b": {}
+      }
     }
   }
 }
