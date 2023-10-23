@@ -19,3 +19,7 @@ npm install aws-amplify @aws-amplify/ui-react
 ```
 amplify add auth
 ```
+
+```
+amplify add storage
+```
