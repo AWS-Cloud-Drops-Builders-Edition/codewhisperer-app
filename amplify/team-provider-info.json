@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "galeriaimagens8c43c22b": {}
+      },
+      "storage": {
+        "s3e7d60aa3": {}
       }
     }
   }
