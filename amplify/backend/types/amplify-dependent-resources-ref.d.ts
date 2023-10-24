@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "galeriaimagens8c43c22b": {
+    "galeriaimagens31adac95": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "s3e7d60aa3": {
+    "s32cf9d4bc": {
       "BucketName": "string",
       "Region": "string"
     }

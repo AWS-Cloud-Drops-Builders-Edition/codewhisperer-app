@@ -1,6 +1,6 @@
 {
   "auth": {
-    "galeriaimagens8c43c22b": {
+    "galeriaimagens31adac95": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -28,7 +28,7 @@
     }
   },
   "storage": {
-    "s3e7d60aa3": {
+    "s32cf9d4bc": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

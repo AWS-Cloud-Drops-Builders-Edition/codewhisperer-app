@@ -1,22 +1,22 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-galeriaimagens-dev-210314-authRole",
-      "UnauthRoleArn": "arn:aws:iam::872422036680:role/amplify-galeriaimagens-dev-210314-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::872422036680:role/amplify-galeriaimagens-dev-210314-authRole",
+      "AuthRoleName": "amplify-galeriaimagens-dev-91431-authRole",
+      "UnauthRoleArn": "arn:aws:iam::206685779498:role/amplify-galeriaimagens-dev-91431-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::206685779498:role/amplify-galeriaimagens-dev-91431-authRole",
       "Region": "sa-east-1",
-      "DeploymentBucketName": "amplify-galeriaimagens-dev-210314-deployment",
-      "UnauthRoleName": "amplify-galeriaimagens-dev-210314-unauthRole",
-      "StackName": "amplify-galeriaimagens-dev-210314",
-      "StackId": "arn:aws:cloudformation:sa-east-1:872422036680:stack/amplify-galeriaimagens-dev-210314/3b75d8d0-6fa5-11ee-bcb9-061d484bd30a",
-      "AmplifyAppId": "d1njifr65ldm11"
+      "DeploymentBucketName": "amplify-galeriaimagens-dev-91431-deployment",
+      "UnauthRoleName": "amplify-galeriaimagens-dev-91431-unauthRole",
+      "StackName": "amplify-galeriaimagens-dev-91431",
+      "StackId": "arn:aws:cloudformation:sa-east-1:206685779498:stack/amplify-galeriaimagens-dev-91431/e45720d0-7266-11ee-aed3-02b5e2b65832",
+      "AmplifyAppId": "dubrr5i8lhlh5"
     },
     "categories": {
       "auth": {
-        "galeriaimagens8c43c22b": {}
+        "galeriaimagens31adac95": {}
       },
       "storage": {
-        "s3e7d60aa3": {}
+        "s32cf9d4bc": {}
       }
     }
   }

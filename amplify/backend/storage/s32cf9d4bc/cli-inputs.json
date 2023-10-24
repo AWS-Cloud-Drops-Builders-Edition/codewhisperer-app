@@ -1,0 +1,16 @@
+{
+  "resourceName": "s32cf9d4bc",
+  "policyUUID": "2cf9d4bc",
+  "bucketName": "galeriaimagens5dcb713d632b48ae94e501831f3effca",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
