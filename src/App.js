@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { useState, useEffect } from 'react';
+import { Authenticator } from '@aws-amplify/ui-react';
+
 function App() {
+
+  const [files, setFiles] = useState([]);
+
+
+  useEffect(() => {
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Authenticator>
+      {({ signOut, user }) => (
+        <div>
+          <nav>
+            <h1>My Awesome Image Gallery</h1>
+          </nav>
+          <main>
+            <div>
+              <div className="list">
+                {files.map(item => {
+                  return <div className="polaroid" key={item.key}>
+                    <img src={item.signedUrl} />
+                    <div className="container">
+                      <div>
+                        <div>{item.key}</div>
+                        <div>{item.size}</div>
+                      </div>
+                    </div>
+                  </div>
+                })}
+              </div>
+            </div>
+          </main>
+        </div>
+      )}
+    </Authenticator>
+
   );
 }
 
